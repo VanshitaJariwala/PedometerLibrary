@@ -78,5 +78,5 @@ private let itemFormatter: DateFormatter = {
 }()
 
 #Preview {
-    PedometerSampleView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    PedometerSampleView().environment(\.managedObjectContext, PedometerPersistenceController.preview.container.viewContext)
 }

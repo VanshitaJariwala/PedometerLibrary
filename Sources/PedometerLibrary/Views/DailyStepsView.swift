@@ -32,7 +32,7 @@ public struct DailyStepsView: View {
     ]
     
     public init() {
-        let context = PersistenceController.shared.container.viewContext
+        let context = PedometerPersistenceController.shared.container.viewContext
         _achievementViewModel = StateObject(wrappedValue: AchievementViewModel(context: context))
     }
     
@@ -292,5 +292,5 @@ struct DailyStepRow: View {
 
 #Preview {
     DailyStepsView()
-        .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        .environment(\.managedObjectContext, PedometerPersistenceController.preview.container.viewContext)
 }

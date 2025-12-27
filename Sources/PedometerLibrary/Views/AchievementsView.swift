@@ -49,7 +49,7 @@ public struct AchievementsView: View {
     ]
     
     public init() {
-        let context = PersistenceController.shared.container.viewContext
+        let context = PedometerPersistenceController.shared.container.viewContext
         _achievementViewModel = StateObject(wrappedValue: AchievementViewModel(context: context))
     }
     
@@ -418,6 +418,6 @@ struct RoundedCorner: Shape {
 #Preview {
     NavigationView {
         AchievementsView()
-            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+            .environment(\.managedObjectContext, PedometerPersistenceController.preview.container.viewContext)
     }
 }

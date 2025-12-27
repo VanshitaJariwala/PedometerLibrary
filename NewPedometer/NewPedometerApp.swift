@@ -10,7 +10,7 @@ import CoreData
 
 @main
 struct NewPedometerApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = PedometerPersistenceController.shared
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @State private var showAchievement: AchievementNotificationData?
     @State private var hasProcessedInitialPendingData = false

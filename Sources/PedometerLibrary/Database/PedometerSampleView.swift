@@ -82,7 +82,7 @@ private let itemFormatter: DateFormatter = {
 
 #Preview {
     if #available(macOS 10.15, *) {
-        PedometerSampleView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        PedometerSampleView().environment(\.managedObjectContext, PedometerPersistenceController.preview.container.viewContext)
     } else {
         // Fallback on earlier versions
     }

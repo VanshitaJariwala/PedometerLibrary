@@ -1,5 +1,5 @@
 //
-//  Persistence.swift
+//  PedometerPersistenceController.swift
 //  NewPedometer
 //
 //  Created by Vanshita Jariwala on 08/12/25.
@@ -7,13 +7,13 @@
 
 import CoreData
 
-// MARK: - PersistenceController
-public struct PersistenceController {
-    public static let shared = PersistenceController()
+// MARK: - PedometerPersistenceController
+public struct PedometerPersistenceController {
+    public static let shared = PedometerPersistenceController()
 
     @MainActor
-    public static let preview: PersistenceController = {
-        let result = PersistenceController(inMemory: true)
+    public static let preview: PedometerPersistenceController = {
+        let result = PedometerPersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         
         // Setup preview data

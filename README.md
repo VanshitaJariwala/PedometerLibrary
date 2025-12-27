@@ -36,7 +36,7 @@ import PedometerLibrary
 
 @main
 struct MyApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = PedometerPersistenceController.shared
     
     init() {
         // Initialize library

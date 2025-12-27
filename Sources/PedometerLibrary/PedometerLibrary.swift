@@ -93,18 +93,18 @@ public struct PedometerLibrary {
     
     // MARK: - Core Data Helpers
     
-    /// Creates a PersistenceController instance
+    /// Creates a PedometerPersistenceController instance
     /// Use this if you want to use the library's Core Data setup
     /// - Parameter modelName: The name of your Core Data model (default: "NewPedometer")
-    /// - Returns: A configured PersistenceController
-    public static func makePersistenceController(modelName: String = "NewPedometer") -> PersistenceController {
-        return PersistenceController()
+    /// - Returns: A configured PedometerPersistenceController
+    public static func makePersistenceController(modelName: String = "NewPedometer") -> PedometerPersistenceController {
+        return PedometerPersistenceController()
     }
     
-    /// Gets the shared PersistenceController instance
-    /// - Returns: The shared PersistenceController
-    public static func sharedPersistenceController() -> PersistenceController {
-        return PersistenceController.shared
+    /// Gets the shared PedometerPersistenceController instance
+    /// - Returns: The shared PedometerPersistenceController
+    public static func sharedPersistenceController() -> PedometerPersistenceController {
+        return PedometerPersistenceController.shared
     }
 }
 

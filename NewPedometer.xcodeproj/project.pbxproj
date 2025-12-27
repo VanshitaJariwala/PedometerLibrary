@@ -50,7 +50,7 @@
 				"/Localized: Extension/Localizable.strings",
 				Assets.xcassets,
 				Database/NewPedometer.xcdatamodeld,
-				Database/Persistence.swift,
+				Database/PedometerPersistenceController.swift,
 				Extension/ColorExtention.swift,
 				Extension/LocalizationHelper.swift,
 				NewPedometerApp.swift,
