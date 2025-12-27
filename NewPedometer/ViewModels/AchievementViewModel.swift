@@ -21,7 +21,7 @@ public struct AchievementProgressResult {
 
 // MARK: - Achievement Display Model
 public struct AchievementDisplayModel: Identifiable {
-    let id: UUID
+    public let id: UUID
     let type: String
     let title: String
     let targetValue: Double
@@ -59,7 +59,7 @@ public struct AchievementDisplayModel: Identifiable {
 
 // MARK: - Level Display Model
 public struct LevelDisplayModel: Identifiable {
-    let id: Int  // Level number
+    public let id: Int  // Level number
     let levelName: String
     let stepRequirement: Int
     let imageName: String

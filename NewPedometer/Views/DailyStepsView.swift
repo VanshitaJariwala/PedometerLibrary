@@ -33,7 +33,7 @@ public struct DailyStepsView: View {
         _achievementViewModel = StateObject(wrappedValue: AchievementViewModel(context: context))
     }
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             Color(hex: "F3F5F7")
                 .ignoresSafeArea()

@@ -12,7 +12,7 @@ import UIKit
 
 // MARK: - Achievement Notification Data
 public struct AchievementNotificationData: Identifiable {
-    let id = UUID()
+    public let id = UUID()
     let type: AchievementType
     let achievementValue: Double
     let badgeImageName: String

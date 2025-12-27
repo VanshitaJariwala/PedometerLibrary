@@ -32,8 +32,8 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
             NotificationManager.shared.updateBadgeCount()
         }
         
-        if let notification = launchOptions?[.remoteNotification] as? [String: Any] {
-
+        if let _ = launchOptions?[.remoteNotification] as? [String: Any] {
+            // Handle remote notification if needed in the future
         }
         
         return true

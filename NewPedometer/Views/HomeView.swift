@@ -35,7 +35,7 @@ public struct HomeView: View {
         _achievementViewModel = StateObject(wrappedValue: AchievementViewModel(context: context))
     }
     
-    var body: some View {
+    public var body: some View {
         mainContent
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("")
