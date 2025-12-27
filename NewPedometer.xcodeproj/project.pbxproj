@@ -74,28 +74,6 @@
 		665E71792EFDA7240003A767 /* Exceptions for "NewPedometer" folder in "PedometerLibrary" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"/Localized: Extension/Localizable.strings",
-				Assets.xcassets,
-				Database/ContentView.swift,
-				Database/NewPedometer.xcdatamodeld,
-				Database/Persistence.swift,
-				Extension/ColorExtention.swift,
-				Extension/LocalizationHelper.swift,
-				Info.plist,
-				NewPedometerApp.swift,
-				NewPedometerAppDelegate.swift,
-				PedometerLibrary.swift,
-				ViewModels/AchievementViewModel.swift,
-				ViewModels/NotificationManager.swift,
-				ViewModels/StepTrackingViewModel.swift,
-				Views/AchievementNotificationView.swift,
-				Views/AchievementsView.swift,
-				Views/DailyStepsView.swift,
-				Views/HomeView.swift,
-				Views/KonfettiView.swift,
-				Views/LevelView.swift,
-				Views/TotalDaysView.swift,
-				Views/TotalDistanceView.swift,
 			);
 			target = 665E70FF2EFDA6410003A767 /* PedometerLibrary */;
 		};
@@ -202,7 +180,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				665E71612EFDA7230003A767 /* NewPedometer */,
 			);
 			name = PedometerLibrary;
 			packageProductDependencies = (
