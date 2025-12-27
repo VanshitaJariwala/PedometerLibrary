@@ -49,7 +49,6 @@
 			membershipExceptions = (
 				"/Localized: Extension/Localizable.strings",
 				Assets.xcassets,
-				Database/ContentView.swift,
 				Database/NewPedometer.xcdatamodeld,
 				Database/Persistence.swift,
 				Extension/ColorExtention.swift,
@@ -71,12 +70,6 @@
 			);
 			target = 664BEE212EE8976400DBC30B /* NewPedometer */;
 		};
-		665E71792EFDA7240003A767 /* Exceptions for "NewPedometer" folder in "PedometerLibrary" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-			);
-			target = 665E70FF2EFDA6410003A767 /* PedometerLibrary */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,7 +77,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				665E71772EFDA7240003A767 /* Exceptions for "NewPedometer" folder in "NewPedometer" target */,
-				665E71792EFDA7240003A767 /* Exceptions for "NewPedometer" folder in "PedometerLibrary" target */,
 			);
 			path = NewPedometer;
 			sourceTree = "<group>";
@@ -178,8 +170,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
 			);
 			name = PedometerLibrary;
 			packageProductDependencies = (

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PedometerSampleView.swift
 //  NewPedometer
 //
 //  Created by Vanshita Jariwala on 08/12/25.
@@ -8,7 +8,8 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+@available(macOS 10.15, *)
+struct PedometerSampleView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -29,9 +30,11 @@ struct ContentView: View {
                 .onDelete(perform: deleteItems)
             }
             .toolbar {
+                #if os(iOS)
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
+                #endif
                 ToolbarItem {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
@@ -78,5 +81,9 @@ private let itemFormatter: DateFormatter = {
 }()
 
 #Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    if #available(macOS 10.15, *) {
+        PedometerSampleView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    } else {
+        // Fallback on earlier versions
+    }
 }
