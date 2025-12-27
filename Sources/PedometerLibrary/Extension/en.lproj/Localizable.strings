@@ -1,0 +1,152 @@
+/* 
+  Localizable.strings
+  NewPedometer
+  
+  English Localization
+*/
+
+// MARK: - Common UI
+"button.ok" = "OK";
+"button.cancel" = "Cancel";
+"button.done" = "Done";
+"button.submit" = "Submit";
+"button.continue" = "Continue";
+"button.save" = "Save";
+"button.saving" = "Saving...";
+"button.more" = "More >";
+"button.view_all" = "View All";
+
+// MARK: - Navigation Titles
+"nav.achievements" = "Achievements";
+"nav.level" = "Level";
+"nav.daily_steps" = "Daily Steps";
+"nav.total_days" = "Total Days";
+"nav.total_distance" = "Total Distance";
+"nav.home" = "Home";
+"nav.achievement_module" = "Achievement module";
+
+// MARK: - Form Labels
+"form.daily_steps" = "Daily Steps";
+"form.lifetime_steps" = "Lifetime Steps";
+"form.total_distance" = "Total Distance (KM)";
+"form.days" = "Days";
+"form.achievement" = "Achievement";
+
+// MARK: - Achievement Messages
+"achievement.congratulations" = "Congratulations!";
+"achievement.reached_new_badge" = "Nice! You've reached New Badge";
+"achievement.reached_badge" = "Nice! You've reached %@";
+"achievement.completed_steps" = "Completed %@ steps";
+"achievement.completed_steps_today" = "Completed %@ steps today!";
+"achievement.active_for_days" = "You've been active for %d days!";
+"achievement.walked_distance" = "You've walked %.1f km total!";
+"achievement.completed_total_steps" = "Completed %@ total steps";
+
+// MARK: - Progress Messages
+"progress.more_steps_to_level" = "%@ more steps to reach L%d level";
+"progress.more_steps_to_win" = "%@ more step to win the achievement";
+"progress.more_days_to_achieve" = "%d more days to achieve";
+"progress.more_km_to_achieve" = "%.1f km more to achieve";
+"progress.steps_left" = "%@ steps left";
+"progress.days_left" = "%d Days left";
+"progress.km_left" = "%.1f km left";
+"progress.maximum_level_achieved" = "Maximum level achieved!";
+"progress.all_daily_completed" = "You have completed all daily step achievements!";
+"progress.all_days_completed" = "You have completed all day achievements!";
+"progress.all_distance_completed" = "You have completed all distance achievements!";
+"progress.all_achievements_completed" = "All %@ achievements completed!";
+"progress.all_daily_completed_today" = "All daily step achievements completed today!";
+
+// MARK: - Achievement Titles
+"achievement.title.first_footprint" = "First Footprint";
+"achievement.title.step_warrior" = "Step Warrior";
+"achievement.title.pace_master" = "Pace Master";
+"achievement.title.stride_champion" = "Stride Champion";
+"achievement.title.trail_blazer" = "Trail Blazer";
+"achievement.title.step_titan" = "Step Titan";
+"achievement.title.endurance_hero" = "Endurance Hero";
+"achievement.title.legend_walker" = "Legend Walker";
+"achievement.title.weekly_walker" = "Weekly Walker";
+"achievement.title.two_week_trekker" = "Two Week Trekker";
+"achievement.title.monthly_mover" = "Monthly Mover";
+"achievement.title.bi_monthly_blazer" = "Bi-Monthly Blazer";
+"achievement.title.century_stepper" = "Century Stepper";
+"achievement.title.half_year_hero" = "Half Year Hero";
+"achievement.title.annual_achiever" = "Annual Achiever";
+"achievement.title.legendary_strider" = "Legendary Strider";
+"achievement.title.millennium_walker" = "Millennium Walker";
+"achievement.title.mini_trekker" = "Mini Trekker";
+"achievement.title.path_seeker" = "Path Seeker";
+"achievement.title.journey_maker" = "Journey Maker";
+"achievement.title.marathoner" = "Marathoner";
+"achievement.title.road_challenger" = "Road Challenger";
+"achievement.title.city_connector" = "City Connector";
+"achievement.title.continent_strider" = "Continent Strider";
+"achievement.title.desert_voyager" = "Desert Voyager";
+"achievement.title.country_crawler" = "Country Crawler";
+"achievement.title.world_wanderer" = "World Wanderer";
+"achievement.title.start" = "Start";
+"achievement.title.10k_steps" = "10k Steps";
+"achievement.title.50k_steps" = "50k Steps";
+"achievement.title.100k_steps" = "100k Steps";
+"achievement.title.170k_steps" = "170k Steps";
+"achievement.title.220k_steps" = "220k Steps";
+"achievement.title.330k_steps" = "330k Steps";
+"achievement.title.440k_steps" = "440k Steps";
+"achievement.title.550k_steps" = "550k Steps";
+"achievement.title.660k_steps" = "660k Steps";
+"achievement.title.770k_steps" = "770k Steps";
+"achievement.title.880k_steps" = "880k Steps";
+"achievement.title.990k_steps" = "990k Steps";
+"achievement.title.1100k_steps" = "1100k Steps";
+"achievement.title.1200k_steps" = "1200k Steps";
+"achievement.title.1300k_steps" = "1300k Steps";
+"achievement.title.1400k_steps" = "1400k Steps";
+"achievement.title.1500k_steps" = "1500k Steps";
+"achievement.title.1600k_steps" = "1600k Steps";
+"achievement.title.2000k_steps" = "2000k Steps";
+
+// MARK: - Level Messages
+"level.steps_required" = "%@ steps required";
+"level.achieved_date" = "%@";
+
+// MARK: - Alert Messages
+"alert.success" = "Success!";
+"alert.error" = "Error";
+"alert.locked_achievement" = "Locked Achievement";
+"alert.locked_message" = "🔒 This achievement is locked!\n\nYou need %@ more steps to unlock Level %d - \"%@\"";
+"alert.locked_message_steps" = "🔒 This achievement is locked!\n\nYou need %@ more steps to unlock \"%@\"";
+"alert.locked_message_days" = "🔒 This achievement is locked!\n\nYou need %d more days to unlock \"%@\"";
+"alert.locked_message_distance" = "🔒 This achievement is locked!\n\nYou need %.1f km more to unlock \"%@\"";
+"alert.enter_positive_value" = "Please enter at least one positive value";
+"alert.progress_added" = "Progress added successfully!";
+
+// MARK: - Stats Labels
+"stats.total_steps" = "Total Steps";
+"stats.distance" = "Distance";
+"stats.days" = "Days";
+"stats.level" = "Level";
+"stats.current_stats" = "Current Stats";
+"stats.steps_to_level" = "%@ steps to Level %d";
+
+// MARK: - Share Messages
+"share.level_achievement" = "🏆 I've completed Level %d - %@ by reaching %@ steps!";
+"share.achievement_generic" = "🏆 %@ - %@";
+"share.achievement_completed" = "🏆 I've completed an achievement!";
+"share.level_reached" = "🏆 I've reached Level %d with %@ total steps!";
+"share.daily_steps" = "🚶‍♂️ I've achieved %d/%d daily step goals today with %@ steps!";
+"share.total_days" = "📅 I've been active for %.0f days and unlocked %d/%d day achievements!";
+"share.total_distance" = "🏃‍♂️ I've walked %.1f km and unlocked %d/%d distance achievements!";
+
+// MARK: - Notification Titles
+"notification.level_up" = "Level Up! 🎉";
+"notification.daily_goal" = "Daily Goal Achieved! 🏃";
+"notification.milestone" = "Milestone Reached! 📅";
+"notification.distance_goal" = "Distance Goal Achieved! 🗺️";
+
+// MARK: - Notification Bodies
+"notification.level_body" = "Congratulations! You've reached %@";
+"notification.daily_body" = "Amazing! You completed %@ steps today!";
+"notification.days_body" = "Incredible! You've been active for %d days!";
+"notification.distance_body" = "Fantastic! You've walked %.1f km total!";
+

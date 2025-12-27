@@ -1,0 +1,152 @@
+/* 
+  Localizable.strings
+  NewPedometer
+  
+  Japanese Localization
+*/
+
+// MARK: - Common UI
+"button.ok" = "了解";
+"button.cancel" = "キャンセル";
+"button.done" = "完了";
+"button.submit" = "送信";
+"button.continue" = "続ける";
+"button.save" = "保存";
+"button.saving" = "保存中...";
+"button.more" = "もっと見る >";
+"button.view_all" = "すべて表示";
+
+// MARK: - Navigation Titles
+"nav.achievements" = "実績";
+"nav.level" = "レベル";
+"nav.daily_steps" = "今日の歩数";
+"nav.total_days" = "総日数";
+"nav.total_distance" = "総距離";
+"nav.home" = "ホーム";
+"nav.achievement_module" = "実績モジュール";
+
+// MARK: - Form Labels
+"form.daily_steps" = "今日の歩数";
+"form.lifetime_steps" = "累計歩数";
+"form.total_distance" = "総距離（キロメートル）";
+"form.days" = "日数";
+"form.achievement" = "実績";
+
+// MARK: - Achievement Messages
+"achievement.congratulations" = "おめでとうございます！";
+"achievement.reached_new_badge" = "素晴らしい！新しいバッジを獲得しました";
+"achievement.reached_badge" = "素晴らしい！%@を獲得しました";
+"achievement.completed_steps" = "%@歩を達成しました";
+"achievement.completed_steps_today" = "今日%@歩を達成しました！";
+"achievement.active_for_days" = "%d日間継続して活動しています！";
+"achievement.walked_distance" = "合計%.1fキロメートル歩きました！";
+"achievement.completed_total_steps" = "累計%@歩を達成しました";
+
+// MARK: - Progress Messages
+"progress.more_steps_to_level" = "レベル%dまであと%@歩";
+"progress.more_steps_to_win" = "実績獲得まであと%@歩";
+"progress.more_days_to_achieve" = "達成まであと%d日";
+"progress.more_km_to_achieve" = "達成まであと%.1fキロメートル";
+"progress.steps_left" = "あと%@歩";
+"progress.days_left" = "あと%d日";
+"progress.km_left" = "あと%.1fキロメートル";
+"progress.maximum_level_achieved" = "最大レベルに到達しました！";
+"progress.all_daily_completed" = "今日の歩数実績をすべて達成しました！";
+"progress.all_days_completed" = "日数実績をすべて達成しました！";
+"progress.all_distance_completed" = "距離実績をすべて達成しました！";
+"progress.all_achievements_completed" = "%@の実績をすべて達成しました！";
+"progress.all_daily_completed_today" = "今日の歩数実績をすべて達成しました！";
+
+// MARK: - Achievement Titles
+"achievement.title.first_footprint" = "最初の一歩";
+"achievement.title.step_warrior" = "歩数戦士";
+"achievement.title.pace_master" = "ペースマスター";
+"achievement.title.stride_champion" = "ストライドチャンピオン";
+"achievement.title.trail_blazer" = "トレイルブレイザー";
+"achievement.title.step_titan" = "歩数タイタン";
+"achievement.title.endurance_hero" = "持久力のヒーロー";
+"achievement.title.legend_walker" = "伝説の歩行者";
+"achievement.title.weekly_walker" = "週間ウォーカー";
+"achievement.title.two_week_trekker" = "2週間トレッカー";
+"achievement.title.monthly_mover" = "月間ムーバー";
+"achievement.title.bi_monthly_blazer" = "2ヶ月ブレイザー";
+"achievement.title.century_stepper" = "センチュリーステッパー";
+"achievement.title.half_year_hero" = "半年ヒーロー";
+"achievement.title.annual_achiever" = "年間達成者";
+"achievement.title.legendary_strider" = "伝説のストライダー";
+"achievement.title.millennium_walker" = "ミレニアムウォーカー";
+"achievement.title.mini_trekker" = "ミニトレッカー";
+"achievement.title.path_seeker" = "パスシーカー";
+"achievement.title.journey_maker" = "ジャーニーメーカー";
+"achievement.title.marathoner" = "マラソンランナー";
+"achievement.title.road_challenger" = "ロードチャレンジャー";
+"achievement.title.city_connector" = "シティコネクター";
+"achievement.title.continent_strider" = "大陸ストライダー";
+"achievement.title.desert_voyager" = "砂漠の航海者";
+"achievement.title.country_crawler" = "国境クローラー";
+"achievement.title.world_wanderer" = "世界の放浪者";
+"achievement.title.start" = "スタート";
+"achievement.title.10k_steps" = "1万歩";
+"achievement.title.50k_steps" = "5万歩";
+"achievement.title.100k_steps" = "10万歩";
+"achievement.title.170k_steps" = "17万歩";
+"achievement.title.220k_steps" = "22万歩";
+"achievement.title.330k_steps" = "33万歩";
+"achievement.title.440k_steps" = "44万歩";
+"achievement.title.550k_steps" = "55万歩";
+"achievement.title.660k_steps" = "66万歩";
+"achievement.title.770k_steps" = "77万歩";
+"achievement.title.880k_steps" = "88万歩";
+"achievement.title.990k_steps" = "99万歩";
+"achievement.title.1100k_steps" = "110万歩";
+"achievement.title.1200k_steps" = "120万歩";
+"achievement.title.1300k_steps" = "130万歩";
+"achievement.title.1400k_steps" = "140万歩";
+"achievement.title.1500k_steps" = "150万歩";
+"achievement.title.1600k_steps" = "160万歩";
+"achievement.title.2000k_steps" = "200万歩";
+
+// MARK: - Level Messages
+"level.steps_required" = "%@歩必要";
+"level.achieved_date" = "%@";
+
+// MARK: - Alert Messages
+"alert.success" = "成功！";
+"alert.error" = "エラー";
+"alert.locked_achievement" = "ロックされた実績";
+"alert.locked_message" = "🔒 この実績はロックされています！\n\nレベル%d「%@」を解除するには、あと%@歩必要です";
+"alert.locked_message_steps" = "🔒 この実績はロックされています！\n\n「%@」を解除するには、あと%@歩必要です";
+"alert.locked_message_days" = "🔒 この実績はロックされています！\n\n「%@」を解除するには、あと%d日必要です";
+"alert.locked_message_distance" = "🔒 この実績はロックされています！\n\n「%@」を解除するには、あと%.1fキロメートル必要です";
+"alert.enter_positive_value" = "少なくとも1つの正の値を入力してください";
+"alert.progress_added" = "進捗が正常に追加されました！";
+
+// MARK: - Stats Labels
+"stats.total_steps" = "総歩数";
+"stats.distance" = "距離";
+"stats.days" = "日数";
+"stats.level" = "レベル";
+"stats.current_stats" = "現在の統計";
+"stats.steps_to_level" = "レベル%dまであと%@歩";
+
+// MARK: - Share Messages
+"share.level_achievement" = "🏆 レベル%d「%@」を%@歩達成して達成しました！";
+"share.achievement_generic" = "🏆 %@ - %@";
+"share.achievement_completed" = "🏆 実績を達成しました！";
+"share.level_reached" = "🏆 累計%@歩でレベル%dに到達しました！";
+"share.daily_steps" = "🚶‍♂️ 今日%@歩で%d/%dの今日の歩数目標を達成しました！";
+"share.total_days" = "📅 %.0f日間活動し、日数実績%d/%dを解除しました！";
+"share.total_distance" = "🏃‍♂️ %.1fキロメートル歩き、距離実績%d/%dを解除しました！";
+
+// MARK: - Notification Titles
+"notification.level_up" = "レベルアップ！🎉";
+"notification.daily_goal" = "今日の目標達成！🏃";
+"notification.milestone" = "マイルストーン達成！📅";
+"notification.distance_goal" = "距離目標達成！🗺️";
+
+// MARK: - Notification Bodies
+"notification.level_body" = "おめでとうございます！%@に到達しました";
+"notification.daily_body" = "素晴らしい！今日%@歩を達成しました！";
+"notification.days_body" = "すごい！%d日間継続して活動しています！";
+"notification.distance_body" = "素晴らしい！合計%.1fキロメートル歩きました！";
+

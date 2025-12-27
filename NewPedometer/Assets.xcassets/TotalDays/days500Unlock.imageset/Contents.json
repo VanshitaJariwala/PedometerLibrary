@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "filename": "days500Unlock.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "filename": "days500Unlock@2x.png",
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "filename": "days500Unlock@3x.png",
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
